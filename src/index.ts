@@ -3,3 +3,5 @@ import IListener from './Contracts/IListener';
 import Emitter from './Emitter';
 
 export { Emitter, IEvent, IListener };
+
+module.exports.Emitter = Emitter;
