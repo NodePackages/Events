@@ -1,11 +1,13 @@
 # Events
+
 Inspired by Laravel and Node.js. Events help you to integrate an event and listener mechanism right into the **Javascript** or **Node.js application**. Did we mention it's flexible? **Register and emit events, Your Way!** and *Not to forget, It's Typescript Ready*.
 
 ## Installation
+
 Installing Events is just one command.
 
 ```
-npm install nodepackages/Events
+npm install nodepackages-events
 ```
 
 ## Examples
@@ -13,7 +15,7 @@ npm install nodepackages/Events
 #### Index.js
 
 ```
-import { Emitter } from 'Events';
+import { Emitter } from 'nodepackages-events';
 import SendWelcomeMail from './Listeners/SendWelcomeMail';
 import UserRegistered from './Events/UserRegistered';
 
@@ -82,11 +84,13 @@ export default class SendWelcomeMail {
 - [Abhishek Prakash](https://github.com/abhishek6262)
 
 ## Contributing
+
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionality. I will appreciate that a lot. Also please add your name to the credits.
 
 Kindly [follow me on twitter](https://twitter.com/_the_shade)!
 
 ## Support
+
 Moreover, To keep this and my other open source projects ongoing You can also support me on Patreon by clicking on the button below.
 
 [<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png">](https://www.patreon.com/bePatron?u=5563585)
