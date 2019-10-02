@@ -1,3 +1,3 @@
-import Event from './Event';
+import Emitter from './Emitter';
 
-export default Event;
+export default Emitter;

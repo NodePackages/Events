@@ -1,6 +1,2 @@
-export default abstract class IEvent {
-  protected abstract name: string;
-
-  public getName = () => this.name;
-  public toString = () => this.getName();
-}
+// tslint:disable-next-line: no-empty-interface
+export default interface IEvent {}

@@ -1,5 +1,5 @@
-import { TEvent } from './TEvent';
+import IEvent from './IEvent';
 
 export default interface IListener {
-  handle(event: TEvent): void;
+  handle(event: IEvent, ...args: any[]): void;
 }
