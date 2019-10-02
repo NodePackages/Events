@@ -1,7 +1,7 @@
 {
   "name": "events",
   "version": "1.0.0",
-  "description": "",
+  "description": "Object-Based Event System for Node.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
