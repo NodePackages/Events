@@ -14,7 +14,13 @@
     "postversion": "git push && git push --tags",
     "version": "npm run format && git add -A src"
   },
-  "keywords": [],
+  "keywords": [
+    "emitters",
+    "events",
+    "listeners",
+    "node",
+    "node js"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
