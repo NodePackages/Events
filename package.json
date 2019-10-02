@@ -1,6 +1,6 @@
 {
   "name": "nodepackages-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Events and Listener system inspired by Laravel and Node.js for flexibility, Javascript and Node.js.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
