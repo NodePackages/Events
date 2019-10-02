@@ -32,7 +32,6 @@
     "typescript": "^3.6.3"
   },
   "files": [
-    "examples/**/*",
     "lib/**/*"
   ]
 }
