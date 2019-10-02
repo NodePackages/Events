@@ -1,5 +1,5 @@
 # Events
-Inspired by Laravel and Node.js. Events help you to integrate an event and listener mechanism right into the application. Did we mention it's flexible? Register and emit events, Your Way!
+Inspired by Laravel and Node.js. Events help you to integrate an event and listener mechanism right into the **Javascript** or **Node.js application**. Did we mention it's flexible? **Register and emit events, Your Way!** and *Not to forget, It's Typescript Ready*.
 
 ## Installation
 Installing Events is just one command.
@@ -9,8 +9,11 @@ npm install nodepackages/Events
 ```
 
 ## Examples
+
+#### Index.js
+
 ```
-import Emitter from 'Events';
+import { Emitter } from 'Events';
 import SendWelcomeMail from './Listeners/SendWelcomeMail';
 import UserRegistered from './Events/UserRegistered';
 
@@ -49,6 +52,29 @@ emitter.emit(new UserRegistered(user));
 
 // The other way is to emit the event and pass the arguments if needed.
 emitter.emit('account-activated', user);
+```
+
+#### Events/UserRegistered.js
+
+```
+export default class UserRegistered {
+    constructor(user) {
+        this.user = user;
+    }
+}
+```
+
+#### Listeners\SendWelcomeMail.js
+
+```
+export default class SendWelcomeMail {
+    handle(event) {
+        // Accessing public property of the event.
+        console.log(`Hello, ${ event.user.name }!`);
+
+        // Do something ...
+    }
+}
 ```
 
 ## Credits
